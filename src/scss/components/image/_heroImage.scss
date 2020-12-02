@@ -1,0 +1,14 @@
+.a-heroImage {
+  width: calc(100% - 560px);
+
+  background-image: url(/img/hero-image.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  @media screen and (max-width: 850px) {
+    width: 0;
+
+    background: none;
+  }
+}
